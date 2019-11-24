@@ -48,7 +48,8 @@ Raspberry Pi コンソールから、$ sudo raspi-config で開く下図のツ�
 
 
 ## Thunderboard React program (Web Bluetooth)の使い方
-index.htmlをブラウザChromiumで開く
+
+1. index.htmlをブラウザChromiumで開く
 
 	方法1:	ターミナルから下記コマンド
 		$ chromium-browser index.html
@@ -57,4 +58,23 @@ index.htmlをブラウザChromiumで開く
 
 	方法3: ファイルマネージャから、Chromiumへファイルをドラッグ&ドロップ 
 
+1. Thunderboard Reactの接続をする
+![webbt1](./images/Webbt1.png)
 
+1. 現れるWindowsで接続デバイスを選ぶ
+![webbt](./images/Webbt2.png)
+
+1. Connectedになっていることを確認し、それぞれのセンサーの値を”Read”ボタンで取得
+![webbt](./images/Webbt3.png)
+
+1. 値が”Reading”の場合はしばらく待つ
+![webbt](./images/Webbt4.png)
+
+## “Start Notification”ボタンを押し、Notification(通知)機能を試す
+1. Thunderboard React上のボタンを押すとL, Rの円の色が変わる
+1. ReadとNotificationの使い分けを理解する
+![webbt](./images/Webbt5.png)
+
+
+## Thunderboard React GATT構造
+![webbt](./images/Gatt_DB.png)
